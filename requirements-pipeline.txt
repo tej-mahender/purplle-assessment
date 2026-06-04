@@ -1,0 +1,10 @@
+# ── Detection pipeline — install only when running detect.py ─────────────────
+# These are NOT needed to run the API — only for CCTV processing
+ultralytics==8.2.18
+supervision==0.20.0
+opencv-python-headless==4.9.0.80
+numpy==1.26.4
+
+# torch / torchvision — installed separately based on environment:
+#   Local CPU:    pip install torch torchvision
+#   Colab GPU:    pre-installed, do NOT reinstall

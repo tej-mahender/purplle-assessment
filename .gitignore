@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.db
+*.db-shm
+*.db-wal
+.env
+.coverage
+.pytest_cache/
+htmlcov/
+dist/
+build/
+*.egg-info/
+data/clips/*.mp4
+data/events.jsonl

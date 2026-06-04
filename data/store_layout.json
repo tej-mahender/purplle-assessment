@@ -1,0 +1,354 @@
+{
+  "ST1008": {
+    "store_name": "Brigade_Bangalore",
+    "store_id": "ST1008",
+    "city": "Bangalore",
+    "address": "Brigade Road, Bangalore",
+    "open_hours": {
+      "open": "10:00",
+      "close": "22:00"
+    },
+    "floor_dimensions_mm": {
+      "width": 9000,
+      "height": 2500
+    },
+    "entry_camera": "CAM_ENTRY_01",
+    "cameras": {
+      "CAM_ENTRY_01": {
+        "type": "entry_exit",
+        "position": "glass_door_bottom_left",
+        "description": "Covers entry/exit glass door threshold"
+      },
+      "CAM_FLOOR_01": {
+        "type": "floor",
+        "position": "ceiling_centre",
+        "description": "Main floor zone coverage"
+      },
+      "CAM_BILLING_01": {
+        "type": "billing",
+        "position": "ceiling_right",
+        "description": "Cash counter and billing area"
+      }
+    },
+    "zones": {
+      "BACK_WALL_LEFT": {
+        "display_name": "EB Korean / Face Shop / Good Vibes",
+        "brands": [
+          "EB Korean",
+          "The Face Shop",
+          "Good Vibes"
+        ],
+        "department": "skin",
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            350,
+            0
+          ],
+          [
+            350,
+            200
+          ],
+          [
+            0,
+            200
+          ]
+        ],
+        "camera": "CAM_FLOOR_01"
+      },
+      "BACK_WALL_CENTRE": {
+        "display_name": "DermDoc / Minimalist / Aqualogica",
+        "brands": [
+          "DermDoc",
+          "Minimalist",
+          "Aqualogica"
+        ],
+        "department": "skin",
+        "polygon": [
+          [
+            350,
+            0
+          ],
+          [
+            650,
+            0
+          ],
+          [
+            650,
+            200
+          ],
+          [
+            350,
+            200
+          ]
+        ],
+        "camera": "CAM_FLOOR_01"
+      },
+      "BACK_WALL_RIGHT": {
+        "display_name": "Lakme Skin / Accessories",
+        "brands": [
+          "Lakme Skin",
+          "Accessories"
+        ],
+        "department": "skin",
+        "polygon": [
+          [
+            650,
+            0
+          ],
+          [
+            1000,
+            0
+          ],
+          [
+            1000,
+            200
+          ],
+          [
+            650,
+            200
+          ]
+        ],
+        "camera": "CAM_FLOOR_01"
+      },
+      "FRAGRANCE": {
+        "display_name": "Fragrance",
+        "brands": [
+          "Fragrance"
+        ],
+        "department": "fragrance",
+        "polygon": [
+          [
+            200,
+            250
+          ],
+          [
+            350,
+            250
+          ],
+          [
+            350,
+            600
+          ],
+          [
+            200,
+            600
+          ]
+        ],
+        "camera": "CAM_FLOOR_01"
+      },
+      "NAIL_UNIT": {
+        "display_name": "Nail Unit",
+        "brands": [
+          "Nail Unit"
+        ],
+        "department": "personal-care",
+        "polygon": [
+          [
+            350,
+            250
+          ],
+          [
+            450,
+            250
+          ],
+          [
+            450,
+            600
+          ],
+          [
+            350,
+            600
+          ]
+        ],
+        "camera": "CAM_FLOOR_01"
+      },
+      "FOH": {
+        "display_name": "Front of House",
+        "brands": [],
+        "department": "general",
+        "polygon": [
+          [
+            450,
+            200
+          ],
+          [
+            750,
+            200
+          ],
+          [
+            750,
+            650
+          ],
+          [
+            450,
+            650
+          ]
+        ],
+        "camera": "CAM_FLOOR_01"
+      },
+      "MAKEUP_UNIT": {
+        "display_name": "Makeup Unit / Display",
+        "brands": [],
+        "department": "makeup",
+        "polygon": [
+          [
+            500,
+            350
+          ],
+          [
+            750,
+            350
+          ],
+          [
+            750,
+            550
+          ],
+          [
+            500,
+            550
+          ]
+        ],
+        "camera": "CAM_FLOOR_01"
+      },
+      "BILLING": {
+        "display_name": "Cash Counter / Billing",
+        "brands": [],
+        "department": "billing",
+        "polygon": [
+          [
+            800,
+            100
+          ],
+          [
+            1000,
+            100
+          ],
+          [
+            1000,
+            650
+          ],
+          [
+            800,
+            650
+          ]
+        ],
+        "camera": "CAM_BILLING_01",
+        "is_billing": true
+      },
+      "PMU": {
+        "display_name": "PMU Zone",
+        "brands": [
+          "PMU"
+        ],
+        "department": "personal-care",
+        "polygon": [
+          [
+            850,
+            550
+          ],
+          [
+            1000,
+            550
+          ],
+          [
+            1000,
+            800
+          ],
+          [
+            850,
+            800
+          ]
+        ],
+        "camera": "CAM_BILLING_01"
+      },
+      "BOTTOM_WALL_LEFT": {
+        "display_name": "Maybelline / Faces Canada / Lakme",
+        "brands": [
+          "Maybelline",
+          "Faces Canada",
+          "Lakme"
+        ],
+        "department": "makeup",
+        "polygon": [
+          [
+            0,
+            700
+          ],
+          [
+            350,
+            700
+          ],
+          [
+            350,
+            900
+          ],
+          [
+            0,
+            900
+          ]
+        ],
+        "camera": "CAM_FLOOR_01"
+      },
+      "BOTTOM_WALL_CENTRE": {
+        "display_name": "Colorbar + Sugar / Swiss Beauty / Renee NY Bae",
+        "brands": [
+          "Colorbar",
+          "Sugar",
+          "Swiss Beauty",
+          "Renee NY Bae"
+        ],
+        "department": "makeup",
+        "polygon": [
+          [
+            350,
+            700
+          ],
+          [
+            650,
+            700
+          ],
+          [
+            650,
+            900
+          ],
+          [
+            350,
+            900
+          ]
+        ],
+        "camera": "CAM_FLOOR_01"
+      },
+      "BOTTOM_WALL_RIGHT": {
+        "display_name": "Alps Goodness / Streax",
+        "brands": [
+          "Alps Goodness",
+          "Streax"
+        ],
+        "department": "hair",
+        "polygon": [
+          [
+            650,
+            700
+          ],
+          [
+            850,
+            700
+          ],
+          [
+            850,
+            900
+          ],
+          [
+            650,
+            900
+          ]
+        ],
+        "camera": "CAM_FLOOR_01"
+      }
+    }
+  }
+}

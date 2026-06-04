@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: sqlite+aiosqlite:///./data/store_intelligence.db
+      POS_TRANSACTIONS_PATH: ./data/pos_transactions.csv
+      STORE_LAYOUT_PATH: ./data/store_layout.json
+      LOG_LEVEL: INFO
+    volumes:
+      - ./data:/app/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+volumes:
+  data:
