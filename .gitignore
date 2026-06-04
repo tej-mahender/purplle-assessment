@@ -12,4 +12,3 @@ dist/
 build/
 *.egg-info/
 data/clips/*.mp4
-data/events.jsonl
